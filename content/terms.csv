@@ -1,0 +1,31 @@
+Term,Condition,Category,Level,Plain-language definition,Example from a note,Source,Related term,Relationship,Status
+Hypertension (HTN),HTN,Disease,Basic,Blood pressure that stays higher than normal over time.,"Pt has a hx of HTN, well controlled on lisinopril.",ICD-10-CM (I10),Lisinopril,Treated by,Draft
+Hypertensive urgency,HTN,Disease,Advanced,Very high blood pressure without signs of new organ damage.,BP 192/118 on arrival; no chest pain or neuro deficits. Hypertensive urgency.,ICD-10-CM (I16.0),Hypertension (HTN),Type of,Draft
+Hypertensive emergency,HTN,Disease,Advanced,"Very high blood pressure with signs of new organ damage, such as to the heart, brain or kidneys.",Hypertensive emergency with acute kidney injury; admitted to ICU.,ICD-10-CM (I16.1),Hypertension (HTN),Type of,Draft
+Left ventricular hypertrophy (LVH),HTN,Disease,Advanced,"Thickening of the wall of the heart's main pumping chamber, often from years of high blood pressure.","Echo shows mild LVH, likely 2/2 longstanding HTN.",ICD-10-CM,Hypertension (HTN),Complication of,Draft
+Chronic kidney disease (CKD),"HTN, DM",Disease,Intermediate,Long-term loss of kidney function. High blood pressure is a leading cause.,"CKD stage 3, followed by nephrology.",ICD-10-CM,Hypertension (HTN),Complication of,Draft
+Stroke (CVA),"HTN, Stroke",Disease,Intermediate,Brain injury from blocked or bleeding blood flow. High blood pressure raises the risk.,"PMH: HTN, prior CVA without residual deficits.",ICD-10-CM,Hypertension (HTN),Risk raised by,Draft
+ACE inhibitor,HTN,Medication,Intermediate,A class of medicines that relax blood vessels by blocking a hormone that narrows them.,Started on an ACE inhibitor for BP control.,RxNorm (drug class),Lisinopril,Includes,Draft
+Lisinopril,HTN,Medication,Intermediate,An ACE inhibitor commonly used to treat high blood pressure.,Continue lisinopril 10 mg PO daily.,RxNorm,ACE inhibitor,Member of class,Draft
+ARB (angiotensin II receptor blocker),HTN,Medication,Intermediate,A class of medicines that relax blood vessels; often used if an ACE inhibitor causes a cough.,Switched from ACE inhibitor to ARB due to cough.,RxNorm (drug class),Losartan,Includes,Draft
+Losartan,HTN,Medication,Intermediate,An ARB used to treat high blood pressure.,Losartan 50 mg PO daily.,RxNorm,ARB (angiotensin II receptor blocker),Member of class,Draft
+Thiazide diuretic,HTN,Medication,Intermediate,"A 'water pill' that helps the kidneys remove extra salt and water, lowering blood pressure.",Add a thiazide diuretic if BP remains above goal.,RxNorm (drug class),Hydrochlorothiazide (HCTZ),Includes,Draft
+Hydrochlorothiazide (HCTZ),HTN,Medication,Intermediate,A thiazide diuretic used to treat high blood pressure.,HCTZ 25 mg PO daily.,RxNorm,Thiazide diuretic,Member of class,Draft
+Calcium channel blocker (CCB),HTN,Medication,Intermediate,A class of medicines that relax blood vessel walls to lower blood pressure.,Pt on a CCB for HTN.,RxNorm (drug class),Amlodipine,Includes,Draft
+Amlodipine,HTN,Medication,Intermediate,A calcium channel blocker used to treat high blood pressure.,Amlodipine 5 mg PO daily.,RxNorm,Calcium channel blocker (CCB),Member of class,Draft
+Headache,HTN,Sign / symptom,Basic,"Pain in the head. Can occur with very high blood pressure, though most people with HTN have no symptoms.",Pt reports headache; BP elevated at 178/104.,Draft example,Hypertensive urgency,Can occur with,Draft
+Dry cough,HTN,Sign / symptom,Intermediate,A persistent cough without mucus; a known side effect of ACE inhibitors.,Reports dry cough since starting lisinopril.,Draft example,Lisinopril,Side effect of,Draft
+Edema,HTN,Sign / symptom,Intermediate,"Swelling from extra fluid in the body's tissues, often in the ankles; a possible side effect of amlodipine.",1+ bilateral LE edema.,Draft example,Amlodipine,Side effect of,Draft
+Blood pressure (BP),HTN,Lab / test,Basic,"The force of blood against artery walls, written as systolic over diastolic (e.g., 120/80).","BP 148/92, HR 76.",Draft example,Hypertension (HTN),Used to diagnose,Draft
+Systolic blood pressure (SBP),HTN,Lab / test,Basic,The top number in a BP reading: pressure when the heart beats.,SBP consistently > 140 on home readings.,Draft example,Blood pressure (BP),Part of,Draft
+Diastolic blood pressure (DBP),HTN,Lab / test,Basic,The bottom number in a BP reading: pressure when the heart rests between beats.,DBP 95 today.,Draft example,Blood pressure (BP),Part of,Draft
+Basic metabolic panel (BMP),HTN,Lab / test,Intermediate,A blood test that checks kidney function and electrolytes; often ordered when starting or adjusting BP meds.,Repeat BMP in 2 weeks after starting lisinopril.,Draft example,Lisinopril,Monitors,Draft
+Creatinine (Cr),HTN,Lab / test,Intermediate,A waste product in the blood; higher levels can mean the kidneys aren't working as well.,"Cr 1.4, up from baseline 1.1.",Draft example,Chronic kidney disease (CKD),Measures,Draft
+Potassium (K),HTN,Lab / test,Intermediate,An electrolyte important for heart rhythm; some BP meds raise it and others lower it.,K 5.3 on ACE inhibitor; will monitor.,Draft example,ACE inhibitor,Affected by,Draft
+Electrocardiogram (EKG / ECG),HTN,Lab / test,Intermediate,A test that records the heart's electrical activity; can show signs of LVH.,"EKG: NSR, voltage criteria for LVH.",Draft example,Left ventricular hypertrophy (LVH),Can detect,Draft
+Echocardiogram (echo),HTN,Lab / test,Advanced,An ultrasound of the heart that shows its structure and pumping.,Echo ordered to evaluate for LVH.,Draft example,Left ventricular hypertrophy (LVH),Can detect,Draft
+hx,All,Abbreviation,Basic,"History (e.g., a past condition).",hx of HTN x 10 years.,Draft example,,,Draft
+Pt,All,Abbreviation,Basic,Patient.,Pt is a 58 y/o M with HTN.,Draft example,,,Draft
+PMH,All,Abbreviation,Basic,Past medical history: the patient's previous and ongoing conditions.,"PMH: HTN, HLD, T2DM.",Draft example,,,Draft
+PO,All,Abbreviation,Intermediate,By mouth (from Latin 'per os').,Lisinopril 10 mg PO daily.,Draft example,,,Draft
+2/2,All,Abbreviation,Advanced,Secondary to; caused by.,LVH 2/2 longstanding HTN.,Draft example,,,Draft

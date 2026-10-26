@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chart Decoder</title>
+  <meta name="description" content="A medical terminology game for health informatics students and IT professionals in health.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to game</a>
+  <header class="topbar">
+    <button class="brand" type="button" data-action="home" aria-label="Chart Decoder home">
+      <span class="brand-mark" aria-hidden="true">Cd</span>
+      <span class="brand-name">Chart Decoder</span>
+    </button>
+    <span class="topbar-tag">Phase 1</span>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <p class="loading">Loading terms…</p>
+  </main>
+
+  <div id="live" class="visually-hidden" aria-live="polite"></div>
+
+  <footer class="footer">
+    <p>Learn the language of the chart, one condition at a time. Terms drawn from ICD-10-CM, RxNorm and example clinical notes.</p>
+  </footer>
+
+  <!-- Content: edit these files to change what the game teaches -->
+  <script src="content/bootcamp.js"></script>
+  <script src="content/terms-fallback.js"></script>
+  <!-- Game engine -->
+  <script src="app.js"></script>
+</body>
+</html>
